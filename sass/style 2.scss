@@ -1,0 +1,63 @@
+/*Variables*/
+
+$color-one: #fed330;
+$color-two: #778ca3;
+$color-three: black;
+$color-four: white;
+
+$font-text: 'Montserrat', sans-serif;
+
+/*Global*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-size: 16px;
+line-height: 1.7;
+font-family: $font-text;
+}
+
+.container {
+max-width: 1140px;
+padding: 0 20px;
+margin: 0 auto;
+}
+
+section {
+padding: 96px 0;
+}
+
+/*Navbar*/
+
+nav {
+    background-image: url(/images/pexels-mahe-haroutinian-3748174.jpg);
+    object-fit: cover;
+}
+
+nav .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .list {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+
+    li {
+        flex-direction: row;
+        margin-left: 30px;
+        }
+}
+
+nav a {
+    text-decoration: none;
+    color: $color-four;
+    text-transform: uppercase;
+}
+
+/*Header*/

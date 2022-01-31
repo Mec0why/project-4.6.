@@ -8,7 +8,6 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -22,34 +21,9 @@ section {
 }
 
 /*Navbar*/
-nav {
-  background-image: url(/images/pexels-mahe-haroutinian-3748174.jpg);
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-nav .col {
+nav list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav .list {
-  display: flex;
-  list-style-type: none;
-  justify-content: flex-end;
-}
-nav .list li {
   flex-direction: row;
-  margin-left: 30px;
 }
 
-nav a {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-}
-
-/*Header*/
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFBO0FBU0EsU0FBQTtBQUVBO0VBQ0ksc0JBQUE7QUNSSjs7QURXQTtFQUNBLFNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxxQ0FaWTtBQ0laOztBRFdBO0VBQ0EsaUJBQUE7RUFDQSxlQUFBO0VBQ0EsY0FBQTtBQ1JBOztBRFdBO0VBQ0EsZUFBQTtBQ1JBOztBRFdBLFNBQUE7QUFFQTtFQUNJLGtFQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ1RKOztBRFlBO0VBQ0ksYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7QUNUSjs7QURZQTtFQUNJLGFBQUE7RUFDQSxxQkFBQTtFQUNBLHlCQUFBO0FDVEo7QURXSTtFQUNJLG1CQUFBO0VBQ0EsaUJBQUE7QUNUUjs7QURhQTtFQUNJLHFCQUFBO0VBQ0EsWUFyRFM7RUFzRFQseUJBQUE7QUNWSjs7QURhQSxTQUFBIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFBO0FBT0EsU0FBQTtBQUVBO0VBQ0ksc0JBQUE7QUNOSjs7QURTQTtFQUNBLFNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7QUNOQTs7QURTQTtFQUNBLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLGNBQUE7QUNOQTs7QURTQTtFQUNBLGVBQUE7QUNOQTs7QURTQSxTQUFBO0FBRUE7RUFDSSxhQUFBO0VBQ0EsbUJBQUE7QUNQSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
