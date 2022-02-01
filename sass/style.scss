@@ -31,6 +31,24 @@ section {
 padding: 96px 0;
 }
 
+.section-subtitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 20px auto 10px auto;
+    }
+
+    p {
+    font-style: italic;
+    color: gray;
+    margin: 0 auto 20px auto;
+    }
+}
+
 /*Header*/
 
 header {
@@ -124,4 +142,34 @@ header .list {
     border-color: $color-one;
     color: $color-four;
     background-color: $color-one;
+}
+
+/*Services*/
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    i {
+    align-self: center;
+    font-size: 72px;
+    color: $color-one;
+    margin-top: 48px;
+    }
+
+    h4 {
+    align-self: center;
+    font-weight: bold;
+    font-size: 18px;
+    }
+
+    p {
+    align-self: center;
+    text-align: center;
+    max-width: 250px;
+    margin-top: 0;
+    font-size: 14px;
+    color: gray;
+    }
 }
