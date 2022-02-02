@@ -51,13 +51,14 @@ padding: 96px 0;
 
 /*Header*/
 
-header {
+.header {
     height: 100vh;
+    max-height: 600px;
     position: relative;
     background-color: black;
 }
 
-header::before {
+.header::before {
     content:'';
     position: absolute;
     background-image: url(/images/pexels-photo-4993240.jpeg);
@@ -88,12 +89,11 @@ header::before {
 
 header .list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     list-style-type: none;
     padding: 0;
 
     li {
-    padding-bottom: 20px;
     text-align: center;
     }
 
@@ -101,7 +101,7 @@ header .list {
     text-decoration: none;
     color: $color-four;
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 20px 20px;
     font-size: px;
     }
 }
@@ -109,8 +109,8 @@ header .list {
 .splash {
     display: flex;
     flex-direction: column;
-    padding: 0;
     color: $color-four;
+    min-height: 500px;
     margin: auto;
 
     h2 {
