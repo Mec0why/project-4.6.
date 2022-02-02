@@ -230,3 +230,58 @@ header .list {
     height: 75%;
     }
 }
+
+/*Footer*/
+
+footer .row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+    .box {
+    align-content: center;
+    
+        i {
+        font-size: 32px;
+        margin-top: 0;
+        }
+    }
+}
+
+footer h3 {
+    display: flex;
+    align-content: center;
+    font-size: 14px;
+}
+
+footer .list {
+    display: flex;
+    flex-direction: row;
+    margin: 48px 0;
+    padding: 0;
+    justify-content: flex-start;
+    align-self: center;
+    }
+    
+footer li {
+    font-size: 0;
+    transition: 1s;
+    }
+    
+footer li:hover {
+    transform: scale(1.2)
+    }
+    
+footer li i {
+    height: 60px;
+    width: 60px;
+    color: $color-one;
+    font-size: 20px;
+    border-radius: 50%;
+    background: $color-three;
+    margin: 0 30px;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 11%;
+}
